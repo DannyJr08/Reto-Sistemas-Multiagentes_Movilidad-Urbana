@@ -1,0 +1,1109 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/chiro/OneDrive/Documents/GitHub/Reto-Sistemas-Multiagentes_Movilidad-Urbana/Unity/RetoTrafficSimulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60157
+Successfully changed project path to: C:/Users/chiro/OneDrive/Documents/GitHub/Reto-Sistemas-Multiagentes_Movilidad-Urbana/Unity/RetoTrafficSimulator
+C:/Users/chiro/OneDrive/Documents/GitHub/Reto-Sistemas-Multiagentes_Movilidad-Urbana/Unity/RetoTrafficSimulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 543.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chiro/OneDrive/Documents/GitHub/Reto-Sistemas-Multiagentes_Movilidad-Urbana/Unity/RetoTrafficSimulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034766 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 384.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4670ms)
+		BeginReloadAssembly (903ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (10ms)
+		EndReloadAssembly (2536ms)
+			LoadAssemblies (874ms)
+			RebuildTransferFunctionScriptingTraits (12ms)
+			SetupTypeCache (846ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (181ms)
+			SetupLoadedEditorAssemblies (1189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (385ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.073301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5638ms)
+		BeginReloadAssembly (608ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (4454ms)
+			LoadAssemblies (695ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1971ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (259ms)
+			SetupLoadedEditorAssemblies (1409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (358ms)
+				ProcessInitializeOnLoadAttributes (871ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (56.3 KB). Loaded Objects now: 3850.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 12.862200 ms (FindLiveObjects: 0.839900 ms CreateObjectMapping: 0.625200 ms MarkObjects: 10.774000 ms  DeleteObjects: 0.618000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294952.159392 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Demo/TrafficLightsSettings.lighting
+  artifactKey: Guid(af07dd690861f8c469bf453acf2e71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Demo/TrafficLightsSettings.lighting using Guid(af07dd690861f8c469bf453acf2e71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '07aca7e72cb19cfc1c16b915c3d7b110') in 0.171903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.883392 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Materials/Floor.mat
+  artifactKey: Guid(5fd138741043b5a418c7869735a2c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Materials/Floor.mat using Guid(5fd138741043b5a418c7869735a2c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39049efa2accadb4b0428e4d4ef43929') in 0.391169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.245662 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4_Black.FBX
+  artifactKey: Guid(9efb295787d77544a8937ea2d2ecc1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4_Black.FBX using Guid(9efb295787d77544a8937ea2d2ecc1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8af29b4dc3c647a432f8cf405ba5bb') in 0.169170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_Base_T_B.FBX
+  artifactKey: Guid(75adc5b2432b8e2429e3c65b2bcea843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_Base_T_B.FBX using Guid(75adc5b2432b8e2429e3c65b2bcea843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f735a421650d2c828e68d99fe02cb4a') in 0.051777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Black.FBX
+  artifactKey: Guid(e05e20f043eca2f48b9c4e8e42a2ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Black.FBX using Guid(e05e20f043eca2f48b9c4e8e42a2ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96921d3627bc1e20304ad02b0c923f4e') in 0.048460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_C_Green.FBX
+  artifactKey: Guid(f9f83a63669ed4349a3e634f7f3167cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_C_Green.FBX using Guid(f9f83a63669ed4349a3e634f7f3167cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab6176ba35cf8d444e270a7c027bc53') in 0.046314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_B_Yellow.FBX
+  artifactKey: Guid(149ef9ecdfebedd4a93383cb7767dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_B_Yellow.FBX using Guid(149ef9ecdfebedd4a93383cb7767dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e75957af58357c1d9d18660e07c7e6') in 0.044645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4_Yellow.FBX
+  artifactKey: Guid(5eaf8fa1624f47d49a80ca79919a02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4_Yellow.FBX using Guid(5eaf8fa1624f47d49a80ca79919a02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320fc02126d3515422f456a1c84a6092') in 0.053630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Green.FBX
+  artifactKey: Guid(f7ccb89f0f7df274085bad061afe7981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Green.FBX using Guid(f7ccb89f0f7df274085bad061afe7981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94784c307277966829abe405a118f89c') in 0.054540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_C_Yellow.FBX
+  artifactKey: Guid(d3fc0d42cea678344bd475f424b4ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_C_Yellow.FBX using Guid(d3fc0d42cea678344bd475f424b4ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bb65f29ed8b0876c6802c10d4a57dc') in 0.052292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Green.FBX
+  artifactKey: Guid(461787c622cc92c46b76683cfb427ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Green.FBX using Guid(461787c622cc92c46b76683cfb427ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587f6f134a6345b49fe4e2c6352ea12a') in 0.045916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Black.FBX
+  artifactKey: Guid(b4fcf8538076eb74c9b0120bc54b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Black.FBX using Guid(b4fcf8538076eb74c9b0120bc54b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a107835c3b57c1be07287e21406264') in 0.051172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_B_Green.FBX
+  artifactKey: Guid(c4370cbd249c7954c94ee61e9bf38d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_B_Green.FBX using Guid(c4370cbd249c7954c94ee61e9bf38d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b687fce091c373410e26258adea033') in 0.048874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_Base_T_A.FBX
+  artifactKey: Guid(594db83d9d2dd1d46ae5471a6d2f6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_Base_T_A.FBX using Guid(594db83d9d2dd1d46ae5471a6d2f6a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00053437027a02984f2a6c7caa45e25a') in 0.046624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_HSet_Yellow.FBX
+  artifactKey: Guid(7a7fface679834c41b45c66f1dbddb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_HSet_Yellow.FBX using Guid(7a7fface679834c41b45c66f1dbddb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f9f164a9e3955f2f7a46c5e1f528da') in 0.056286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_VSet_White.FBX
+  artifactKey: Guid(3a8998b79471bef4c9d1571eec3a9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_VSet_White.FBX using Guid(3a8998b79471bef4c9d1571eec3a9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3686820b35ad0c73dca20b000b61c5c') in 0.045284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Whtie.FBX
+  artifactKey: Guid(d1dbdee4f256f3a42bd503d6c624977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_A_Whtie.FBX using Guid(d1dbdee4f256f3a42bd503d6c624977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b8761c7a0f09dd2dd9a50dcfce115b') in 0.051774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_White.FBX
+  artifactKey: Guid(7186b076798c1fb42a5410afeb599166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Meshes/TB_CITY_Prop_TrafficLight_4Set_White.FBX using Guid(7186b076798c1fb42a5410afeb599166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a943af40ca01f43504a9d0f599c20f') in 0.043859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.295722 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Textures/emit.png
+  artifactKey: Guid(86b18d9b4ae36a9429307ac5ad15310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Textures/emit.png using Guid(86b18d9b4ae36a9429307ac5ad15310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a447663ffcfd627a39498a35ad160a5') in 0.215955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.750421 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Black.prefab
+  artifactKey: Guid(4270f2a69da41c04f9d1bb111e805c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Black.prefab using Guid(4270f2a69da41c04f9d1bb111e805c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e8e179407de98973ecedaf707988d4') in 0.466006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Green.prefab
+  artifactKey: Guid(c227da9241072dd4fb78210df9553677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Green.prefab using Guid(c227da9241072dd4fb78210df9553677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed460aa3de820a0bd425544f5cca13fa') in 0.044206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_White.prefab
+  artifactKey: Guid(2d6add7df6bf8e44bb2fe494a7653cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_White.prefab using Guid(2d6add7df6bf8e44bb2fe494a7653cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff41ffdb1bb6461f12bb4e516835136') in 0.050424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Green.prefab
+  artifactKey: Guid(149299d47b9e73442b755810e20a94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Green.prefab using Guid(149299d47b9e73442b755810e20a94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49026417806ea720ba9246ac7a51506b') in 0.041857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Black.prefab
+  artifactKey: Guid(9f7d9f7144dc2a640949188aaf615f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Black.prefab using Guid(9f7d9f7144dc2a640949188aaf615f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cb5959ebb28afc8262dbe6d2ffcf78') in 0.041771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Yellow.prefab
+  artifactKey: Guid(8f845198ed09c3c4bac1cbc4fce5e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Yellow.prefab using Guid(8f845198ed09c3c4bac1cbc4fce5e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdca1849155ac74cef30a018d4aed0b') in 0.044719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_White.prefab
+  artifactKey: Guid(0341bdd42105e2e4a8534e6d5e15f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_White.prefab using Guid(0341bdd42105e2e4a8534e6d5e15f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42ac7e3bbe010d67059b30b288cb612') in 0.053274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Black.prefab
+  artifactKey: Guid(682f8b1e793d91f43b2ec051e8fd4f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Black.prefab using Guid(682f8b1e793d91f43b2ec051e8fd4f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60089db5bb1bff9834bcef2bf7600f9') in 0.053918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Yellow.prefab
+  artifactKey: Guid(ce24a87ab63913d45abd62c7c97f2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Yellow.prefab using Guid(ce24a87ab63913d45abd62c7c97f2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765c4d0e29935cf41a50b3b29d9dade') in 0.054716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Black.prefab
+  artifactKey: Guid(a5faf4711ef4cef489a20f0ef5c5e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Black.prefab using Guid(a5faf4711ef4cef489a20f0ef5c5e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e6e8d24526e0ee591187722a12153') in 0.048962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Black.prefab
+  artifactKey: Guid(893ca2168422874479700e7bdeb2420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Black.prefab using Guid(893ca2168422874479700e7bdeb2420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e54b298f2dbc13a2d81da2fac3e72a5') in 0.049272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Yellow.prefab
+  artifactKey: Guid(bf3d68831a14b034097ac0b569f49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Yellow.prefab using Guid(bf3d68831a14b034097ac0b569f49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a10a21e8d4135674509f47f55b8841') in 0.045921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Green.prefab
+  artifactKey: Guid(43811916c3a68664fb20a7a6928f7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Green.prefab using Guid(43811916c3a68664fb20a7a6928f7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a799ae128757890d7873c0dabe9ad47') in 0.042394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_A.prefab
+  artifactKey: Guid(d01359581b30d274798a2908a7b0b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_A.prefab using Guid(d01359581b30d274798a2908a7b0b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f91f75f8126b0ebf00dac43e7c1d53e') in 0.087307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Green.prefab
+  artifactKey: Guid(8e9ae156b744bcb46a1127513188d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY-TrafficLights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Green.prefab using Guid(8e9ae156b744bcb46a1127513188d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7be80c7491ee8332f2d83f964df146') in 0.050496 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8624ms)
+		BeginReloadAssembly (3649ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (323ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1814ms)
+		EndReloadAssembly (4348ms)
+			LoadAssemblies (690ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2216ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (198ms)
+			SetupLoadedEditorAssemblies (1292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (14ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (789ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (155.5 KB). Loaded Objects now: 3903.
+Memory consumption went from 125.6 MB to 125.4 MB.
+Total: 15.769000 ms (FindLiveObjects: 0.657000 ms CreateObjectMapping: 0.307700 ms MarkObjects: 14.233600 ms  DeleteObjects: 0.565400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.548420 seconds.
+  path: Assets/SimplePoly - Town Pack/DemoScene
+  artifactKey: Guid(9466b19fc5cab754a9aa9bd2f1919fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/DemoScene using Guid(9466b19fc5cab754a9aa9bd2f1919fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705a24a6e32395f1a4e1313986d171e') in 0.022038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038937 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\chiro\OneDrive\Documents\GitHub\Reto-Sistemas-Multiagentes_Movilidad-Urbana\Unity\RetoTrafficSimulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7302ms)
+		BeginReloadAssembly (2089ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (117ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (811ms)
+		EndReloadAssembly (4658ms)
+			LoadAssemblies (660ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (2179ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (223ms)
+			SetupLoadedEditorAssemblies (1542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (308ms)
+				ProcessInitializeOnLoadAttributes (979ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (155.6 KB). Loaded Objects now: 3906.
+Memory consumption went from 125.6 MB to 125.4 MB.
+Total: 28.047400 ms (FindLiveObjects: 1.416400 ms CreateObjectMapping: 0.776400 ms MarkObjects: 24.484000 ms  DeleteObjects: 1.365500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16623.633063 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs
+  artifactKey: Guid(d2fd26505265afc43bdc547d4820ed8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs using Guid(d2fd26505265afc43bdc547d4820ed8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61c48b4aa8c103afd811da6becf5588') in 0.329952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.380211 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props
+  artifactKey: Guid(bc87320f58167c849876678434a40da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props using Guid(bc87320f58167c849876678434a40da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ec014bc507e3b3ab21144a8fd1b9b1') in 0.005841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079296 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_01.prefab
+  artifactKey: Guid(84cd3f7c8273a1a459bc62834ebb2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_01.prefab using Guid(84cd3f7c8273a1a459bc62834ebb2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb96c702a08589a447e59ba0a1b69ac') in 1.028647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_04.prefab
+  artifactKey: Guid(38cfb67b87a91c74780f71a3ef91247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_04.prefab using Guid(38cfb67b87a91c74780f71a3ef91247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4044b0b1ac1c00f77fd3e407b7c5af38') in 0.110751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_electrical_panel_01.prefab
+  artifactKey: Guid(1d42226b8b4a94f4487b307b6b18dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_electrical_panel_01.prefab using Guid(1d42226b8b4a94f4487b307b6b18dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a6f8dde30e98c5f6db556176fd0c2') in 0.072113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_dumpster_01.prefab
+  artifactKey: Guid(8aed0f8fb93c2ed4c96a99dcc130b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_dumpster_01.prefab using Guid(8aed0f8fb93c2ed4c96a99dcc130b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f186779053b0143cab6f749359d3b') in 0.082062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_traffic_light_01.prefab
+  artifactKey: Guid(7f9ea44d759da6b4e995d9fa92373629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_traffic_light_01.prefab using Guid(7f9ea44d759da6b4e995d9fa92373629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb5dd157daf7333800e23281d34337f') in 0.073691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_bin_02.prefab
+  artifactKey: Guid(70ea0ba299bdf0a49a2af90f19b23cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_bin_02.prefab using Guid(70ea0ba299bdf0a49a2af90f19b23cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01909df6d6f6fd183937253c128d78ac') in 0.079973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_billboard_03.prefab
+  artifactKey: Guid(05fb03652e92efb42bc379e428d37bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_billboard_03.prefab using Guid(05fb03652e92efb42bc379e428d37bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac429ec4f612291fbf105af64699500') in 0.094999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_billboard_01.prefab
+  artifactKey: Guid(2d7ff3605aa9cff4eb8e82f140a295da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_billboard_01.prefab using Guid(2d7ff3605aa9cff4eb8e82f140a295da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ac4634390abc1ee84ac2df010ef0f1') in 0.085803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_bin_01.prefab
+  artifactKey: Guid(b3fd8ea55f8bdf9469ab92a17e818bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_bin_01.prefab using Guid(b3fd8ea55f8bdf9469ab92a17e818bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3261488ab0703322a942f1e841a44e') in 0.068498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_mail_box_01.prefab
+  artifactKey: Guid(8be6a5c88ef3420449ea4b8e6df23556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_mail_box_01.prefab using Guid(8be6a5c88ef3420449ea4b8e6df23556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de86e5557f165d0573f402aaadf06b7') in 0.059760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_03.prefab
+  artifactKey: Guid(156fad5b84ed1104d948668aca70b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_air_conditioning_03.prefab using Guid(156fad5b84ed1104d948668aca70b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f86062e4b12e34f98a640f0c5089c71') in 0.071235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_street_light_01.prefab
+  artifactKey: Guid(2cc5e9c8613078b47b47bdcf3dc32ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Props/sptp_street_light_01.prefab using Guid(2cc5e9c8613078b47b47bdcf3dc32ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2539f7c8526020fee7a4b867fd240d8') in 0.062322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.709496 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_asphalt_01.prefab
+  artifactKey: Guid(b2b896f074253c346ac142ca389d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_asphalt_01.prefab using Guid(b2b896f074253c346ac142ca389d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbfd0e2968686bf8dbdd285657dfb7b') in 0.076816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_07.prefab
+  artifactKey: Guid(581d1ebf3352b5346846e02aec6d28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_07.prefab using Guid(581d1ebf3352b5346846e02aec6d28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df38ec62bc3714bd36b13c10edc9183') in 0.101574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_16.prefab
+  artifactKey: Guid(3cf218854e6991946b36e2beec887904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_16.prefab using Guid(3cf218854e6991946b36e2beec887904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fd17a80782f9712b44be921ed8bbf2') in 0.089939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_04.prefab
+  artifactKey: Guid(e4e5cb51e7d1bef41a5acb77c0759bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_04.prefab using Guid(e4e5cb51e7d1bef41a5acb77c0759bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a280a149447d882aa1e385c0d45e12dd') in 0.099856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_street_concrete_01.prefab
+  artifactKey: Guid(8b23b54510c08544b924f8e4502acc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_street_concrete_01.prefab using Guid(8b23b54510c08544b924f8e4502acc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ce750e593576d1589982ef50edbc6') in 0.065234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_12.prefab
+  artifactKey: Guid(326362485e25689468f84ed4c6c93107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_12.prefab using Guid(326362485e25689468f84ed4c6c93107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ef8260ea9b1887bf550720072863fb') in 0.060237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_05.prefab
+  artifactKey: Guid(61b9c9e3076bd7145a7680b591aab7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_05.prefab using Guid(61b9c9e3076bd7145a7680b591aab7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1840dc496870a2a988e2dc6570e99c') in 0.054467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_10.prefab
+  artifactKey: Guid(8e3bf3e187a935d4f867c1af041ddfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_10.prefab using Guid(8e3bf3e187a935d4f867c1af041ddfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4d0bd636f05d3ed72c0499786880d') in 0.062808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_14.prefab
+  artifactKey: Guid(0af06042621572a499913c0ebe5e69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_14.prefab using Guid(0af06042621572a499913c0ebe5e69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8f9593b806c6f07ac0a5ecabd00ff7') in 0.058855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_15.prefab
+  artifactKey: Guid(aa562231f82a2664490d4cd36e223e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_15.prefab using Guid(aa562231f82a2664490d4cd36e223e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b64a5e7fd8323676995f3c5880bca0') in 0.059497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_11.prefab
+  artifactKey: Guid(f76e9ef0fd63b484388ce742819e4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_11.prefab using Guid(f76e9ef0fd63b484388ce742819e4750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad11410d0a03d87ca4781d35034b5726') in 0.051663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.876598 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_bush_01.prefab
+  artifactKey: Guid(cdc1936d58ab24443b5deb240dc3acfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_bush_01.prefab using Guid(cdc1936d58ab24443b5deb240dc3acfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391e86aed4ae05556d5b2be336991f09') in 0.079464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_stone_02.prefab
+  artifactKey: Guid(a31d75f154921304794bf1d122281cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_stone_02.prefab using Guid(a31d75f154921304794bf1d122281cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a52d2c14edcb7c0f6c2b945a7ece83d') in 0.074653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_stone_01.prefab
+  artifactKey: Guid(bb3c6fcb21a1e4b4faa80734a481448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Nature/sptp_stone_01.prefab using Guid(bb3c6fcb21a1e4b4faa80734a481448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284eabf4cd8be86e6433a080c2ca54b0') in 0.078527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.947089 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_01.prefab
+  artifactKey: Guid(85c5ecd5a01f542499944cbfe9dd1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_01.prefab using Guid(85c5ecd5a01f542499944cbfe9dd1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242aa84d612121ad240b0edb34e942dd') in 0.083986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_05.prefab
+  artifactKey: Guid(376c64c4248da1c478df047404ec6663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_05.prefab using Guid(376c64c4248da1c478df047404ec6663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4b30a6ab8adae99388d077b266443b') in 0.094573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_25.prefab
+  artifactKey: Guid(7538a3c85f736c74ea56d203349fde92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_25.prefab using Guid(7538a3c85f736c74ea56d203349fde92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b0cb0baa193e4ab63d82903cf0c3c2') in 0.062451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_20.prefab
+  artifactKey: Guid(21d87f071ff58334bafd1d0529a95433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_20.prefab using Guid(21d87f071ff58334bafd1d0529a95433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ab9cef0daf56f9077f78d97ea020d') in 0.056647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_12.prefab
+  artifactKey: Guid(fa1f7e3bec326074c8e0ba873be41681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_12.prefab using Guid(fa1f7e3bec326074c8e0ba873be41681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d3957cdbf21c4e041f6a1df6fde3e') in 0.064524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_21.prefab
+  artifactKey: Guid(8ff373953893b2c44968fbf1e5c2d186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_21.prefab using Guid(8ff373953893b2c44968fbf1e5c2d186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac79c3298b9ed6bdfd9b4e9484b7b0') in 0.054250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_09.prefab
+  artifactKey: Guid(f7b79bbc99e117943ab5fb1dd6330136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_09.prefab using Guid(f7b79bbc99e117943ab5fb1dd6330136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cbf5f7ff22a3760868e2270fed5048') in 0.058116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_32.prefab
+  artifactKey: Guid(e3e68252ae8afc94a82589696a7c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_32.prefab using Guid(e3e68252ae8afc94a82589696a7c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7e838b48983666c5d7fc7afbe673dd') in 0.054344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_18.prefab
+  artifactKey: Guid(a03a9df0edb623a4095e3b307f481082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_18.prefab using Guid(a03a9df0edb623a4095e3b307f481082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830e261197ee468aea3b21bf20116b3') in 0.069158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_29.prefab
+  artifactKey: Guid(b0c1f1679136b9a47960b48b5e0f5b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_29.prefab using Guid(b0c1f1679136b9a47960b48b5e0f5b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8813e6240ab2c4866849b9b71e05ad') in 0.057799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_08.prefab
+  artifactKey: Guid(30e2a587c4604ce43802c7a63b6638ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_08.prefab using Guid(30e2a587c4604ce43802c7a63b6638ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97095a2bece08bd6c8898326a4d11ab9') in 0.055584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_31.prefab
+  artifactKey: Guid(219b2a76565a01240a8f893539b9309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_31.prefab using Guid(219b2a76565a01240a8f893539b9309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61d5764759e3f0ee89745c35dceedc') in 0.075086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_10.prefab
+  artifactKey: Guid(6d7985f8534d19e4b8c5bc52a92a075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_10.prefab using Guid(6d7985f8534d19e4b8c5bc52a92a075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ae8a56564a98e2cf2cc03e00f1a87f') in 0.059765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_35.prefab
+  artifactKey: Guid(eae796383f4a9a840ba3676f3b03efbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_35.prefab using Guid(eae796383f4a9a840ba3676f3b03efbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91c5d241a4924d24c73bc9e6ebd0fd6') in 0.064829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_14.prefab
+  artifactKey: Guid(7ad2e20841a11954f8a84f88e5175cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_14.prefab using Guid(7ad2e20841a11954f8a84f88e5175cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e845ca90902a5e2bacbdcb785748ba') in 0.071636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_16.prefab
+  artifactKey: Guid(a9b79d749ced56c4e8b559a4f12d0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_16.prefab using Guid(a9b79d749ced56c4e8b559a4f12d0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffb730ead0b64df8687b93c58232fac') in 0.068020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_06.prefab
+  artifactKey: Guid(d626666846aaa4740be705007a456295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_06.prefab using Guid(d626666846aaa4740be705007a456295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355135ed94b8d20e24f1ad5bb6c1ef9') in 0.056586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_28.prefab
+  artifactKey: Guid(09676f1ba84ec5d48912d47723cefe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/Buildings/sptp_building_28.prefab using Guid(09676f1ba84ec5d48912d47723cefe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0cc95abb852f2d6f721ca808ae274e') in 0.056671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.902951 seconds.
+  path: Assets/SimplePoly - Town Pack/Textures/sptp_Main_Texture.png
+  artifactKey: Guid(b42e91acc804c4a4f8f4e03714d63ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Textures/sptp_Main_Texture.png using Guid(b42e91acc804c4a4f8f4e03714d63ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c8b22af51c862c3b6347e2520d1a64') in 0.090271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.444409 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab
+  artifactKey: Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab using Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862c5728e0ce62cba27ce4abe83c3680') in 0.012593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building2_a_Long1_LP_0.prefab
+  artifactKey: Guid(f4bafa207dcb01c458c6178991745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building2_a_Long1_LP_0.prefab using Guid(f4bafa207dcb01c458c6178991745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8729a471b8f0edecd99f46b7310bf7') in 0.009159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building9_a_Block_LP_0.prefab
+  artifactKey: Guid(fc69f7f1a75df2749b64ef5a02a8c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building9_a_Block_LP_0.prefab using Guid(fc69f7f1a75df2749b64ef5a02a8c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e10f4bfc379a6066ab841e3d52cfed8') in 0.008495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_a_Cross_LP_0.prefab
+  artifactKey: Guid(2c89f463dadedf94c8cb64bb366aa46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_a_Cross_LP_0.prefab using Guid(2c89f463dadedf94c8cb64bb366aa46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48267179946979b3bc006d4abd7b1a2e') in 0.006655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_a_Turn_LP_0.prefab
+  artifactKey: Guid(ce0c57502a1b7d64cb77ba2ee025cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_a_Turn_LP_0.prefab using Guid(ce0c57502a1b7d64cb77ba2ee025cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45161d6a7fb95d4b3bee8b27df42098d') in 0.006695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp2_a_Single_LP_0.prefab
+  artifactKey: Guid(108690a89a76ab74eacdc5a5665d6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp2_a_Single_LP_0.prefab using Guid(108690a89a76ab74eacdc5a5665d6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2afb3039ef96ec5c7cab1caea719d48') in 0.006871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree2_a_Spherical_LP_0.prefab
+  artifactKey: Guid(c32ff84383e2d5c4db7c7fbace883ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree2_a_Spherical_LP_0.prefab using Guid(c32ff84383e2d5c4db7c7fbace883ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2f8389414958c1011eaa360b7d460') in 0.008008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_b_Cross_LP_0.prefab
+  artifactKey: Guid(bde37b1057f6e5e4a90a9f948f97d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_b_Cross_LP_0.prefab using Guid(bde37b1057f6e5e4a90a9f948f97d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67971e2bd7a9e6a797ea2ef25ca7598') in 0.006496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building10_a_Small_LP_0.prefab
+  artifactKey: Guid(ab9b600713d51f24a8a98a782a1be1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building10_a_Small_LP_0.prefab using Guid(ab9b600713d51f24a8a98a782a1be1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1afe023b1a074be3125b4042809ca74') in 0.010224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building14_a_Library_LP_0.prefab
+  artifactKey: Guid(d0acf689229536e4085c72851f03dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building14_a_Library_LP_0.prefab using Guid(d0acf689229536e4085c72851f03dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597e90d1bdc744ba1bdb4ed239f9e287') in 0.007983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building11_a_Hangar_LP_0.prefab
+  artifactKey: Guid(78e154100981a664986120579967128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building11_a_Hangar_LP_0.prefab using Guid(78e154100981a664986120579967128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2702c834fdd86ebe922b7525ac446218') in 0.012890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_b_Turn_LP_0.prefab
+  artifactKey: Guid(b32383660bd549448b1d4b19f5e30af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_b_Turn_LP_0.prefab using Guid(b32383660bd549448b1d4b19f5e30af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f76a972110e6e79b4f7f3ac1f9a8a9') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building6_a_Cube_LP_0.prefab
+  artifactKey: Guid(f6c7e6cc783e62b4bbf3ef10b5adec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building6_a_Cube_LP_0.prefab using Guid(f6c7e6cc783e62b4bbf3ef10b5adec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890c74689651f09935988610fed9f1c') in 0.011070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab
+  artifactKey: Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab using Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0421e7ed18fda8a2c6cb76e18acd8140') in 0.006870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_c_Medium_LP_0.prefab
+  artifactKey: Guid(ce537aceb98895e4b9c5d0f5220b19c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_c_Medium_LP_0.prefab using Guid(ce537aceb98895e4b9c5d0f5220b19c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4e32451e8ff509d0258c27a84d5c3d') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Road2_a_Cross_LP_0.prefab
+  artifactKey: Guid(a75fbe306baef9649ad8d26f2371d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road2_a_Cross_LP_0.prefab using Guid(a75fbe306baef9649ad8d26f2371d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc7ae715cbdfb9267d63f570ea9bab7') in 0.008096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Road2_b_Cross2_LP_0.prefab
+  artifactKey: Guid(82b2f049042eab24e8d1ebcd61932d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road2_b_Cross2_LP_0.prefab using Guid(82b2f049042eab24e8d1ebcd61932d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e61184ada144f0432fa3be115f55a88') in 0.008816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab
+  artifactKey: Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab using Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd248872fe628a69bb08101a167ed2') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Road1_b_Medium_LP_0.prefab
+  artifactKey: Guid(77ec183ae9049a04f826e7848931ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road1_b_Medium_LP_0.prefab using Guid(77ec183ae9049a04f826e7848931ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd863144fb54360cdda19ed2b37f83') in 0.010670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree4_a_Trapeze_LP_0.prefab
+  artifactKey: Guid(41b26e8737fb9864a9ddbe8daa6ab9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree4_a_Trapeze_LP_0.prefab using Guid(41b26e8737fb9864a9ddbe8daa6ab9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e95d47376bf4383096b48a12460a69') in 0.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Road1_a_Long_LP_0.prefab
+  artifactKey: Guid(7789df142410c6a468d250e0a8fd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road1_a_Long_LP_0.prefab using Guid(7789df142410c6a468d250e0a8fd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6413627579285a56f9d4934c9763e9') in 0.010012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building3_a_Tall1_LP_0.prefab
+  artifactKey: Guid(4438e04aa1a794a4392df965055844b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building3_a_Tall1_LP_0.prefab using Guid(4438e04aa1a794a4392df965055844b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99537061c00c4b47fd60b21176a91f5b') in 0.010553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Building7_a_Tall2_LP_0.prefab
+  artifactKey: Guid(f21a816fa57d6024f95c6c1cb19d2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building7_a_Tall2_LP_0.prefab using Guid(f21a816fa57d6024f95c6c1cb19d2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49e25c0635517cf9d5d5c72f680786') in 0.006986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree1_b_Cylindrical_LP_0.prefab
+  artifactKey: Guid(fb0b93a9ce9aa3842ad4f89077a33071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree1_b_Cylindrical_LP_0.prefab using Guid(fb0b93a9ce9aa3842ad4f89077a33071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd6a5731a12177d5de180a39f0be5f6') in 0.010524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab
+  artifactKey: Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab using Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115059fdd74ca466e3cc901475288f60') in 0.006517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.535602 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree5_b_Pine_LP_0.prefab
+  artifactKey: Guid(7f4b3a63a4b16d8488c093c8478f43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree5_b_Pine_LP_0.prefab using Guid(7f4b3a63a4b16d8488c093c8478f43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0584bcc51408cb09cba8fd6f0ad9d8a7') in 0.006304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree6_b_Rectangular_LP_0.prefab
+  artifactKey: Guid(d5ad6fe36df8f9e45be386ced0514957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree6_b_Rectangular_LP_0.prefab using Guid(d5ad6fe36df8f9e45be386ced0514957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e4d0c876b38f0fa1cae9daf710d2c7') in 0.007011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree7_a_Donuts_LP_0.prefab
+  artifactKey: Guid(c455e3f8d76f9614b884f4ed2bbf7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree7_a_Donuts_LP_0.prefab using Guid(c455e3f8d76f9614b884f4ed2bbf7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74daabb0e6db96af33f24d425d4b4b13') in 0.008231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab
+  artifactKey: Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab using Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40796587422fa94f071c620185d2db15') in 0.006379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.735845 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Bench1_a_LP_LOD0.FBX
+  artifactKey: Guid(bb9b13200079fae47892ba1b7dd55f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Bench1_a_LP_LOD0.FBX using Guid(bb9b13200079fae47892ba1b7dd55f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9feb431b04aae734f222b87d4c6b6c') in 0.067418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Pavement4_a_LP_LOD0.FBX
+  artifactKey: Guid(d067d7fb0c40c5640a927e1e8c77fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Pavement4_a_LP_LOD0.FBX using Guid(d067d7fb0c40c5640a927e1e8c77fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cc2cbf98bde24397a29a08c0599ff3') in 0.033627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp2_a_LP_LOD0.FBX
+  artifactKey: Guid(42dc71221943b464ea1960184b845335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp2_a_LP_LOD0.FBX using Guid(42dc71221943b464ea1960184b845335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a138ec9bfa2806c475ce2b01bf523e') in 0.017701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp1_d_LP_LOD0.FBX
+  artifactKey: Guid(7278b045b2539ac41b89b0f39521e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp1_d_LP_LOD0.FBX using Guid(7278b045b2539ac41b89b0f39521e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6e46006f2f1a483424af365ccd4847') in 0.020067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree2_a_LP_LOD0.FBX
+  artifactKey: Guid(3ca6e983415658b4d82c0c33f3c693ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree2_a_LP_LOD0.FBX using Guid(3ca6e983415658b4d82c0c33f3c693ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97357d2f166a9562c446306d694ec324') in 0.025177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp1_a_LP_LOD0.FBX
+  artifactKey: Guid(b1699788b44c4bc4d918ac5606632996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp1_a_LP_LOD0.FBX using Guid(b1699788b44c4bc4d918ac5606632996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a28ed85003a167eb41660bb56402b2b') in 0.072149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building10_a_LP_LOD0.FBX
+  artifactKey: Guid(206afda5541f40845b4519ddbec17d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building10_a_LP_LOD0.FBX using Guid(206afda5541f40845b4519ddbec17d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b63a0778ff0d07c6f582e8265b726de') in 0.028305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree4_a_LP_LOD0.FBX
+  artifactKey: Guid(c5125654829f3d9479c8564292ccb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree4_a_LP_LOD0.FBX using Guid(c5125654829f3d9479c8564292ccb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1091869ed5dd1655b23a1db16e76d30e') in 0.023798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building7_a_LP_LOD0.FBX
+  artifactKey: Guid(1116df919725f4b4ab47f8b4ba0f6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building7_a_LP_LOD0.FBX using Guid(1116df919725f4b4ab47f8b4ba0f6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e365666d9ea3c9efc213c32f50462a6') in 0.027878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Road3_b_LP_LOD0.FBX
+  artifactKey: Guid(7dcaf28edcf970b4e98963e228cf1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Road3_b_LP_LOD0.FBX using Guid(7dcaf28edcf970b4e98963e228cf1c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2d1d8af098993799a5b660cee204ff') in 0.016553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building8_a_LP_LOD0.FBX
+  artifactKey: Guid(8ad6407b6d7fab44ba0c3798697bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building8_a_LP_LOD0.FBX using Guid(8ad6407b6d7fab44ba0c3798697bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9617e7bd2bd57208b0a1158c5455d24') in 0.018493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building5_a_LP_LOD0.FBX
+  artifactKey: Guid(d6a87391515c377449046829b15d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building5_a_LP_LOD0.FBX using Guid(d6a87391515c377449046829b15d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac90d38b3641c96be8a8f39c0ec5e279') in 0.020561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree1_b_LP_LOD0.FBX
+  artifactKey: Guid(e11412c1197f9d24584719794bd9e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree1_b_LP_LOD0.FBX using Guid(e11412c1197f9d24584719794bd9e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661ec11fe27f7fa531abdc95bc4d13ee') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Road3_a_LP_LOD0.FBX
+  artifactKey: Guid(761e370992fb47f4d95895b4c2c667ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Road3_a_LP_LOD0.FBX using Guid(761e370992fb47f4d95895b4c2c667ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ef646d646761d49a44d5927f12d8ee') in 0.017915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building11_a_LP_LOD0.FBX
+  artifactKey: Guid(b650caf2bd195194f8d1d485679d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building11_a_LP_LOD0.FBX using Guid(b650caf2bd195194f8d1d485679d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57650861527ce860143fcaaa893f4f53') in 0.022251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Road1_b_LP_LOD0.FBX
+  artifactKey: Guid(31b9eb3bac3965041a6f82fce0034cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Road1_b_LP_LOD0.FBX using Guid(31b9eb3bac3965041a6f82fce0034cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbc3858151ca32a0cf2534f67f9ebc2') in 0.017676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building12_a_LP_LOD0.FBX
+  artifactKey: Guid(8aad1db0251333b43b36de780007c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building12_a_LP_LOD0.FBX using Guid(8aad1db0251333b43b36de780007c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71678c40288b3367203f7c3d4ad45e2a') in 0.027893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Pavement2_b_LP_LOD0.FBX
+  artifactKey: Guid(ffc69581abd5e3149a3153a6471572b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Pavement2_b_LP_LOD0.FBX using Guid(ffc69581abd5e3149a3153a6471572b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564ace2794b30151caaae4fcc2005a8e') in 0.017020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Road1_a_LP_LOD0.FBX
+  artifactKey: Guid(e89496f74d122be42af733561214705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Road1_a_LP_LOD0.FBX using Guid(e89496f74d122be42af733561214705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0d5cbbfc0785df2e7af5367cfff4a3') in 0.017229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building6_a_LP_LOD0.FBX
+  artifactKey: Guid(33ab114a7e985694786338b2a45e05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building6_a_LP_LOD0.FBX using Guid(33ab114a7e985694786338b2a45e05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38086a0a80326922b26871f2fb0c5d4') in 0.031092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Pavement1_b_LP_LOD0.FBX
+  artifactKey: Guid(041a18a339b77f947a3c9cbf51e7ffaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Pavement1_b_LP_LOD0.FBX using Guid(041a18a339b77f947a3c9cbf51e7ffaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55e65c73cb8b05b794d308a3a04a3f2') in 0.019127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Road2_a_LP_LOD0.FBX
+  artifactKey: Guid(e6813bf3c9c769c4eae8820276f8e046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Road2_a_LP_LOD0.FBX using Guid(e6813bf3c9c769c4eae8820276f8e046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc147e0ca1f854a1444f0727acf8113') in 0.017660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building9_a_LP_LOD0.FBX
+  artifactKey: Guid(1c88fb85b654f904097f0b9aca7424d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building9_a_LP_LOD0.FBX using Guid(1c88fb85b654f904097f0b9aca7424d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b319b6bec1620ceed8e96fc831c60') in 0.032246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Building4_a_LP_LOD0.FBX
+  artifactKey: Guid(8cc66da096887cf408db5dc8b60773e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Building4_a_LP_LOD0.FBX using Guid(8cc66da096887cf408db5dc8b60773e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8992fb1fe16798e426c8c48dcdfffb') in 0.020345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.258509 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree5_a_LP_LOD0.FBX
+  artifactKey: Guid(7c37a3d113916f44b906d808b7e77dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree5_a_LP_LOD0.FBX using Guid(7c37a3d113916f44b906d808b7e77dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534c3965d9e5b123b1fe3ba67ed25623') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree6_c_LP_LOD0.FBX
+  artifactKey: Guid(ece97bcb50d71b64da02c277c21a10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree6_c_LP_LOD0.FBX using Guid(ece97bcb50d71b64da02c277c21a10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09e65ca82e133fdf012adf5ee8b584b') in 0.015576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree6_a_LP_LOD0.FBX
+  artifactKey: Guid(22ce230d56af4db42a633c7007336ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree6_a_LP_LOD0.FBX using Guid(22ce230d56af4db42a633c7007336ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea1fdefbd7f0ef9cdcc26e6d0ea820d') in 0.020476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Triangularity/ColorfulCity/Models/Tree8_a_LP_LOD0.FBX
+  artifactKey: Guid(8d5816f2934a08d4f8886e4b325864ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Models/Tree8_a_LP_LOD0.FBX using Guid(8d5816f2934a08d4f8886e4b325864ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa789bbffb85ac0070fa6ba8bdebce8') in 0.022232 seconds 
