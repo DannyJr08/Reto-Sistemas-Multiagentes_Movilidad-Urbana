@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TurnFRL
+  - TurnFR
+  - TurnFL
+  - TurnRL
+  - TurnR
+  - TurnL
+  - RedTrafficLight
+  - Bot
+  - Path_1
   layers:
   - Default
   - TransparentFX
