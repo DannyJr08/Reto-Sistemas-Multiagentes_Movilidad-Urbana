@@ -12,6 +12,7 @@ TagManager:
   - TurnL
   - RedTrafficLight
   - Bot
+  - Path_1
   layers:
   - Default
   - TransparentFX

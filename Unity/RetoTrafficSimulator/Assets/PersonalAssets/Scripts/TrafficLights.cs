@@ -10,7 +10,6 @@ public class TrafficLights : MonoBehaviour
 
     public float s_time; //  The Starting time needs to vary from 1 to 2 seconds for each Square
 
-    private bool greenLight = false;
 
     // Start is called before the first frame update
     void Start()
