@@ -5,17 +5,18 @@ using System.Collections;
 
 public class BotBehaviour : MonoBehaviour
 {
-
     public GameObject[] points;
-    private int destPoint = 0;
+    public int destPoint = 0;
     private NavMeshAgent agent;
+
+    // [SerializeField] private Waypoint points;
 
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
 
-        NewPath();
+        // NewPath();
 
         // Disabling auto-braking allows for continuous movement
         // between points (ie, the agent doesn't slow down as it
@@ -36,25 +37,20 @@ public class BotBehaviour : MonoBehaviour
         }
         // Set the agent to go to the currently selected destination.
         agent.destination = points[destPoint].transform.position;
-        Debug.Log("Number of Destinations: " + points.Length);
-        Debug.Log("Current DestPoint Value: " + destPoint);
 
-        Debug.Log("Current Destination ?: " + points[destPoint].transform.position);
-        Debug.Log("Current Destination Same?: " + agent.destination);
-
-        Debug.Log("Current Destination 1: " + points[0].transform.position);
-        Debug.Log("Current Destination 2: " + points[1].transform.position);
-        Debug.Log("Current Destination 3: " + points[2].transform.position);
+        // Debug.Log("Current Destination 1: " + points[0].transform.position);
+        // Debug.Log("Current Destination 2: " + points[1].transform.position);
+        // Debug.Log("Current Destination 3: " + points[2].transform.position);
 
         // Choose the next point in the array as the destination,
         // cycling to the start if necessary.
         destPoint = (destPoint + 1) % points.Length;
 
         // Change Paths so it can go for a new one
-        if (cond == false && destPoint == 0)
+        /* if (cond == false && destPoint == 0)
         {
             NewPath();         
-        }
+        }*/
     }
 
 
