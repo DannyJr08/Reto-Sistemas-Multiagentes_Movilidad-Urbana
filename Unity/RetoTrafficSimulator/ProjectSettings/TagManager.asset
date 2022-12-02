@@ -13,6 +13,7 @@ TagManager:
   - RedTrafficLight
   - Bot
   - Path_1
+  - Path_2
   layers:
   - Default
   - TransparentFX

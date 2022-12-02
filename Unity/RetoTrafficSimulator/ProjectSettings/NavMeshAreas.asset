@@ -39,7 +39,9 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: Road
+  - name: 
+    cost: 1
+  - name: Crux
     cost: 1
   - name: 
     cost: 1
@@ -67,16 +69,14 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: 
-    cost: 1
-  m_LastAgentTypeID: -887442657
+  m_LastAgentTypeID: -334000983
   m_Settings:
   - serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 0
-    agentClimb: 0.001
+    agentSlope: 30
+    agentClimb: 1
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -90,4 +90,4 @@ NavMeshProjectSettings:
     debug:
       m_Flags: 0
   m_SettingNames:
-  - Humanoid
+  - Bot
