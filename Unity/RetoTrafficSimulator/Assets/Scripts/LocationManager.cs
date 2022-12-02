@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,6 +20,7 @@ public class Location
 {
     public int x { get; set; }
     public int y { get; set; }
+    public int semaphoreTimer { get; set; }
 }
 
 public class LocationManager : MonoBehaviour
@@ -31,16 +32,13 @@ public class LocationManager : MonoBehaviour
     private string simpleLocation = string.Empty;
     private string multipleLocation = string.Empty;
 
-    ScoreManager scoreManager;
 
     float timer = 0;
     float waitTimer = 5;
-    //private ScoreManager scoreManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        scoreManager = ScoreManager.Instance; //llamada
         StartCoroutine(llamarAPIsingle());
         StartCoroutine(llamarAPImultiple());
     }
@@ -84,10 +82,6 @@ public class LocationManager : MonoBehaviour
             string getText = getRequest.downloadHandler.text;
             Debug.Log(getText);
             Location[] locations = JsonConvert.DeserializeObject<Location[]>(getText);
-            if (scoreManager != null)
-            {
-                scoreManager.nuevasPosiciones(locations); //guarda a score manager
-            }
         }
 
     }
@@ -104,4 +98,4 @@ public class LocationManager : MonoBehaviour
         string getText = request.downloadHandler.text;
         return request;
     }
-}*/
+}

@@ -8,10 +8,10 @@ public class Waypoints : MonoBehaviour
 
     public float speed = 2f;
     public int index = 0;
-    private int rayCont = 0;
+
     private bool semaphore;
-    //    public bool botCollide = false
-    [SerializeField] private GameObject light;
+
+    [SerializeField] GameObject light;
 
         
     private void Start()
@@ -31,12 +31,7 @@ public class Waypoints : MonoBehaviour
 
         // - - - - - - - - - - - - - - - - - - - - - - - 
 
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
-
-        if (Physics.Raycast(transform.position, fwd, 10)) { 
-            print("There is something in front of the object!");
-            transform.position = Vector3.MoveTowards(transform.position, waypoints[index].transform.position, 0);
-        }
+        // Check List of Waypoints, fill up waypoints based if they're occupied
 
         // - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -47,7 +42,7 @@ public class Waypoints : MonoBehaviour
 
 
 
-        if ((semaphore && index == 5) || (!semaphore && index == 17)) // RedLight 1 On
+        if ((semaphore && index == 15) || (!semaphore && index == 49)) // RedLight 1 On
         {
             transform.position = Vector3.MoveTowards(transform.position, waypoints[index].transform.position, 0);
         }
