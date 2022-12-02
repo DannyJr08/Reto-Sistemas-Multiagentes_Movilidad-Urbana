@@ -24,13 +24,14 @@ public class Waypoints : MonoBehaviour
     private void FixedUpdate()
     {
         semaphore = light.GetComponent<SemaphoreScript>().redlight;
-
-        index = api.variablesGuardar.agents[carId].loc;
-        // Debug.Log(api.variablesGuardar.loc);
+        
+        index = (api.variablesGuardar.agents[carId].loc - 1);
+        Debug.Log(index);
 
         Vector3 destination = waypoints[index].transform.position;
         Vector3 newPos = Vector3.MoveTowards(transform.position, waypoints[index].transform.position, speed * Time.deltaTime);
-        transform.rotation = Quaternion.LookRotation(waypoints[index].transform.position - transform.position);
+        if (waypoints[index].transform.position - transform.position != Vector3.zero ) 
+            transform.rotation = Quaternion.LookRotation(waypoints[index].transform.position - transform.position);
         transform.position = newPos;
         // float distance = Vector3.Distance(transform.position, destination);
 

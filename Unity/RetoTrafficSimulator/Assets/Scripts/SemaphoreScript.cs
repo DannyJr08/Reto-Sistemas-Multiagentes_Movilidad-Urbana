@@ -29,21 +29,15 @@ public class SemaphoreScript : MonoBehaviour
         yellow_light_2.SetActive(false);
         green_light_2.SetActive(false);
 
-
-        // InvokeRepeating(StartCoroutine(ChangeLights()), startingTime, 5f);
-        StartCoroutine(ChangeLights(api.variablesGuardar.semaphoreTimer));
-        StartCoroutine(ChangeLights_2(api.variablesGuardar.semaphoreTimer));
-        Debug.Log(api.variablesGuardar.semaphoreTimer);
+        float apiTimer = api.variablesGuardar.semaphoreTimer;
+        StartCoroutine(ChangeLights(apiTimer));
+        StartCoroutine(ChangeLights_2(apiTimer));
+        // Debug.Log(apiTimer);
 
     }
 
     IEnumerator ChangeLights(float timer)
     {
-        // yield return new WaitForSeconds(time);
-        float gtime = timer * 0.625f;
-        float ytime = timer * 0.375f;
-        float ywait = ytime * 0.083333333333f;
-
         while (true)
         {
             redlight = false;
@@ -51,15 +45,13 @@ public class SemaphoreScript : MonoBehaviour
             // Green Light
             red_light.SetActive(false);
             green_light.SetActive(true);
-            yield return new WaitForSeconds(gtime);
+            yield return new WaitForSeconds(timer / 2);
 
             // Yellow Light
+            yellow_light.SetActive(true);
             green_light.SetActive(false);
-            for (int i = 0; i < ytime * 2; i++)
-            {
-                if (i % 2 == 0) { yellow_light.SetActive(false); } else { yellow_light.SetActive(true); }
-                yield return new WaitForSeconds(ywait);
-            }
+            yield return new WaitForSeconds(timer / 2);
+            
             // Red Light
             redlight = true;
             yellow_light.SetActive(false);
@@ -70,10 +62,6 @@ public class SemaphoreScript : MonoBehaviour
 
     IEnumerator ChangeLights_2(float timer)
     {
-        float gtime = timer * 0.625f;
-        float ytime = timer * 0.375f;
-        float ywait = ytime * 0.083333333333f;
-
         yield return new WaitForSeconds(timer);
 
         while (true)
@@ -81,15 +69,15 @@ public class SemaphoreScript : MonoBehaviour
             // Green Light
             red_light_2.SetActive(false);
             green_light_2.SetActive(true);
-            yield return new WaitForSeconds(gtime);
+            yield return new WaitForSeconds(timer / 2);
+
 
             // Yellow Light
-            green_light_2.SetActive(false);
-            for (int i = 0; i < ytime; i++)
-            {
-                if (i % 2 == 0) { yellow_light_2.SetActive(false); } else { yellow_light_2.SetActive(true); }
-                yield return new WaitForSeconds(ywait);
-            }
+            yellow_light.SetActive(true);
+            green_light.SetActive(false);
+            yield return new WaitForSeconds(timer / 2);
+
+
             // Red Light
             yellow_light_2.SetActive(false);
             red_light_2.SetActive(true);

@@ -56,7 +56,7 @@ public class LlamarApi : Singleton<LlamarApi>
     public GameObject[] carros;
 
     public float timer;
-    public float wait = 1;
+    public float wait = 0.2f;
     public int tempora;
 
     //public int loc;
