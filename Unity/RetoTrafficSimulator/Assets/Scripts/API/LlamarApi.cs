@@ -87,10 +87,7 @@ public class LlamarApi : Singleton<LlamarApi>
         //Debug.Log("La cantidad de agentes seran " + variablesGuardar.semaphoreTimer);
     }
 
-    void reflejarSemaforo()
-    {
-
-    }
+    
 
     IEnumerator mesa(string reset)
     {
